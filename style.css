@@ -1,0 +1,122 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff8f0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #a83232;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .plato {
+    background: white;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .plato h2 {
+    margin: 0.5rem 0;
+    color: #a83232;
+  }
+  
+  .plato span {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .categoria {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+.plato form {
+    margin-top: 0.5rem;
+  }
+  
+  .plato input[type="text"] {
+    padding: 0.3rem;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .plato button {
+    background-color: #a83232;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pedidos {
+    padding: 1rem;
+    margin-top: 2rem;
+    background: #f0f0f0;
+  }
+  
+  .pedidos h3 {
+    margin-bottom: 0.3rem;
+  }
+
+  .pedidos {
+    background-color: #ffffff;
+    margin: 2rem auto;
+    padding: 1.5rem 2rem;
+    max-width: 800px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    border: 2px solid #c43f3f;
+  }
+  
+  .pedidos h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #c43f3f;
+    font-size: 1.8rem;
+  }
+  
+  .pedidos h3 {
+    color: #333;
+    margin-top: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .pedidos ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+    color: #555;
+  }
+  
+  .pedidos li {
+    margin: 0.3rem 0;
+  }
+  
+  .pedidos button {
+    background-color: #ffdddd;
+    border: 1px solid #c43f3f;
+    border-radius: 8px;
+    padding: 3px 8px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .pedidos button:hover {
+    background-color: #ffcfcf;
+  }
+  
